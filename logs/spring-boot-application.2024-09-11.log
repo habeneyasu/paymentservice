@@ -1,0 +1,853 @@
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Disconnecting from node 0 due to request timeout.
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Disconnecting from node 0 due to request timeout.
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Cancelled in-flight FETCH request with correlation id 6024 due to node 0 being disconnected (elapsed time since creation: 60160165ms, elapsed time since send: 60160165ms, request timeout: 30000ms)
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Disconnecting from node 0 due to request timeout.
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Cancelled in-flight FETCH request with correlation id 6024 due to node 0 being disconnected (elapsed time since creation: 60160164ms, elapsed time since send: 60160164ms, request timeout: 30000ms)
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Cancelled in-flight FETCH request with correlation id 6024 due to node 0 being disconnected (elapsed time since creation: 60160165ms, elapsed time since send: 60160165ms, request timeout: 30000ms)
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Disconnecting from node 0 due to request timeout.
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Cancelled in-flight FETCH request with correlation id 6024 due to node 0 being disconnected (elapsed time since creation: 60160172ms, elapsed time since send: 60160172ms, request timeout: 30000ms)
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service-retry-3000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service-retry-3000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service-retry-3000] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Client requested disconnect from node 2147483647
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service-dlt] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service-dlt] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service-dlt] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Client requested disconnect from node 2147483647
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service-retry-6000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service-retry-6000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service-retry-6000] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Client requested disconnect from node 2147483647
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 08:25:08 [kafka-coordinator-heartbeat-thread | payment-service] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Client requested disconnect from node 2147483647
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Error sending fetch request (sessionId=108939870, epoch=5147) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Error sending fetch request (sessionId=488165483, epoch=5147) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Error sending fetch request (sessionId=842378695, epoch=5147) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Error sending fetch request (sessionId=753010728, epoch=5147) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 08:25:08 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 08:25:33 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183 - Re-registering apps/PAYMENT-SERVICE
+2024-09-11 08:25:33 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183: registering service...
+2024-09-11 08:25:33 [DiscoveryClient-HeartbeatExecutor-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183 - registration status: 204
+2024-09-11 08:27:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 08:32:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 08:37:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 08:42:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 08:47:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 08:52:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 08:57:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 09:02:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 09:07:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 09:12:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 09:17:02 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Disconnecting from node 0 due to request timeout.
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Cancelled in-flight FETCH request with correlation id 13846 due to node 0 being disconnected (elapsed time since creation: 3912878ms, elapsed time since send: 3912878ms, request timeout: 30000ms)
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Error sending fetch request (sessionId=1208915110, epoch=6687) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Disconnecting from node 0 due to request timeout.
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Cancelled in-flight FETCH request with correlation id 13845 due to node 0 being disconnected (elapsed time since creation: 3913212ms, elapsed time since send: 3913212ms, request timeout: 30000ms)
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Error sending fetch request (sessionId=1682843996, epoch=6687) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service-retry-6000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service-retry-6000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service-retry-6000] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Client requested disconnect from node 2147483647
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service-retry-3000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service-retry-3000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service-retry-3000] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Client requested disconnect from node 2147483647
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Disconnecting from node 0 due to request timeout.
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Cancelled in-flight FETCH request with correlation id 13845 due to node 0 being disconnected (elapsed time since creation: 3913214ms, elapsed time since send: 3913214ms, request timeout: 30000ms)
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Error sending fetch request (sessionId=1358871233, epoch=6687) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service-dlt] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service-dlt] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service-dlt] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Client requested disconnect from node 2147483647
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Disconnecting from node 0 due to request timeout.
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Cancelled in-flight FETCH request with correlation id 13845 due to node 0 being disconnected (elapsed time since creation: 3913215ms, elapsed time since send: 3913215ms, request timeout: 30000ms)
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Error sending fetch request (sessionId=2117277589, epoch=6687) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 10:26:16 [kafka-coordinator-heartbeat-thread | payment-service] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Client requested disconnect from node 2147483647
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 10:26:16 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 10:27:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 10:32:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 10:37:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 10:42:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 10:47:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 10:52:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 10:57:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:02:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:07:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:12:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:17:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:22:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:27:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:32:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:37:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:42:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 11:47:13 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Disconnecting from node 0 due to request timeout.
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Cancelled in-flight FETCH request with correlation id 25633 due to node 0 being disconnected (elapsed time since creation: 22387380ms, elapsed time since send: 22387380ms, request timeout: 30000ms)
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Error sending fetch request (sessionId=774687282, epoch=10080) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service-retry-6000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service-retry-6000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service-retry-6000] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Client requested disconnect from node 2147483647
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Disconnecting from node 0 due to request timeout.
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Cancelled in-flight FETCH request with correlation id 25633 due to node 0 being disconnected (elapsed time since creation: 22387386ms, elapsed time since send: 22387386ms, request timeout: 30000ms)
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Error sending fetch request (sessionId=21852690, epoch=10080) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Client requested disconnect from node 2147483647
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Disconnecting from node 0 due to request timeout.
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Cancelled in-flight FETCH request with correlation id 25633 due to node 0 being disconnected (elapsed time since creation: 22387388ms, elapsed time since send: 22387388ms, request timeout: 30000ms)
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Error sending fetch request (sessionId=851573976, epoch=10080) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Disconnecting from node 0 due to request timeout.
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Cancelled in-flight FETCH request with correlation id 25633 due to node 0 being disconnected (elapsed time since creation: 22387390ms, elapsed time since send: 22387390ms, request timeout: 30000ms)
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.clients.FetchSessionHandler - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Error sending fetch request (sessionId=337411469, epoch=10080) to node 0:
+org.apache.kafka.common.errors.DisconnectException: null
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service-dlt] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service-dlt] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service-dlt] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Client requested disconnect from node 2147483647
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service-retry-3000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Group coordinator HP:9092 (id: 2147483647 rack: null) is unavailable or invalid due to cause: session timed out without receiving a heartbeat response. isDisconnected: false. Rediscovery will be attempted.
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service-retry-3000] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Requesting disconnect from last known coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:03:40 [kafka-coordinator-heartbeat-thread | payment-service-retry-3000] INFO  o.apache.kafka.clients.NetworkClient - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Client requested disconnect from node 2147483647
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:03:40 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:05:16 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 18:10:16 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 18:15:16 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 18:17:03 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2024-09-11 18:17:03 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1726067823447, current=DOWN, previous=UP]
+2024-09-11 18:17:03 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183: registering service...
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Revoke previously assigned partitions order-topic-dlt-0
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Revoke previously assigned partitions order-topic-retry-3000-0
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Revoke previously assigned partitions order-topic-retry-6000-0
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Revoke previously assigned partitions order-topic-0, order-topic-1, order-topic-2
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service: partitions revoked: [order-topic-0, order-topic-1, order-topic-2]
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-6000: partitions revoked: [order-topic-retry-6000-0]
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-dlt: partitions revoked: [order-topic-dlt-0]
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-3000: partitions revoked: [order-topic-retry-3000-0]
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Member consumer-payment-service-dlt-1-cdc4f9bd-7103-4173-a1d8-ac6222ba1be0 sending LeaveGroup request to coordinator HP:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Member consumer-payment-service-4-6daa2083-2d28-47af-ae2f-12653f8bb947 sending LeaveGroup request to coordinator HP:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Member consumer-payment-service-retry-6000-3-1c396187-b5d9-4546-a190-b621bffd0533 sending LeaveGroup request to coordinator HP:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Member consumer-payment-service-retry-3000-2-f537e642-2775-4c22-9280-6312e893248d sending LeaveGroup request to coordinator HP:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Unsubscribed all topics or patterns and assigned partitions
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Unsubscribed all topics or patterns and assigned partitions
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Unsubscribed all topics or patterns and assigned partitions
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Unsubscribed all topics or patterns and assigned partitions
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:17:03 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183 - registration status: 204
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-retry-6000-3 unregistered
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-6000: Consumer stopped
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-retry-3000-2 unregistered
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-3000: Consumer stopped
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-4 unregistered
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service: Consumer stopped
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-dlt-1 unregistered
+2024-09-11 18:17:03 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-dlt: Consumer stopped
+2024-09-11 18:17:03 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 18:17:03 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-11 18:17:03 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-11 18:17:03 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-09-11 18:17:06 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-09-11 18:17:06 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183 - deregister  status: 200
+2024-09-11 18:17:06 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2024-09-11 18:20:17 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-11 18:20:18 [restartedMain] INFO  c.e.p.PaymentServiceApplication - Starting PaymentServiceApplication using Java 17.0.11 with PID 68650 (/home/kacha/Project/e-commerce/paymentservice/target/classes started by kacha in /home/kacha/Project/e-commerce/paymentservice)
+2024-09-11 18:20:18 [restartedMain] INFO  c.e.p.PaymentServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-09-11 18:20:18 [restartedMain] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in /home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/home/kacha/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2024-09-11 18:20:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-11 18:20:18 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-11 18:20:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-11 18:20:18 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-09-11 18:20:18 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=a71c9a81-1f5c-3ad0-bc08-1ed0a0fec2b9
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$RetryInterceptorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$RetryInterceptorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$710/0x0000748d8c494400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'spring.cloud.loadbalancer-org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerClientsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'default.org.springframework.cloud.loadbalancer.config.LoadBalancerAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'default.org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'default.org.springframework.cloud.netflix.eureka.loadbalancer.LoadBalancerEurekaAutoConfiguration.LoadBalancerClientSpecification' of type [org.springframework.cloud.loadbalancer.annotation.LoadBalancerClientSpecification] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerClientFactory' of type [org.springframework.cloud.loadbalancer.support.LoadBalancerClientFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'blockingLoadBalancerClient' of type [org.springframework.cloud.loadbalancer.blocking.client.BlockingLoadBalancerClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerServiceInstanceCookieTransformer' of type [org.springframework.cloud.loadbalancer.core.LoadBalancerServiceInstanceCookieTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'xForwarderHeadersTransformer' of type [org.springframework.cloud.loadbalancer.blocking.XForwardedHeadersTransformer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerRequestFactory' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerRequestFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerRetryConfig' of type [org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerRetryConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancedRetryFactory' of type [org.springframework.cloud.loadbalancer.blocking.retry.BlockingLoadBalancedRetryFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'loadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.RetryLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:18 [restartedMain] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [loadBalancerWebClientBuilderBeanPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-09-11 18:20:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8183 (http)
+2024-09-11 18:20:19 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8183"]
+2024-09-11 18:20:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-09-11 18:20:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-09-11 18:20:19 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/payments] - Initializing Spring embedded WebApplicationContext
+2024-09-11 18:20:19 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1065 ms
+2024-09-11 18:20:19 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-11 18:20:19 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-09-11 18:20:19 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-09-11 18:20:19 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-11 18:20:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-09-11 18:20:19 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d6c1c05
+2024-09-11 18:20:19 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-09-11 18:20:19 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JTA platform [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2024-09-11 18:20:19 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 18:20:20 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-11 18:20:20 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-09-11 18:20:20 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2024-09-11 18:20:20 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-09-11 18:20:20 [restartedMain] INFO  o.a.k.c.admin.AdminClientConfig - AdminClientConfig values: 
+	auto.include.jmx.reporter = true
+	bootstrap.servers = [localhost:9092]
+	client.dns.lookup = use_all_dns_ips
+	client.id = 
+	connections.max.idle.ms = 300000
+	default.api.timeout.ms = 60000
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+
+2024-09-11 18:20:20 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-11 18:20:20 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-11 18:20:20 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1726068020726
+2024-09-11 18:20:20 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.admin.client for adminclient-1 unregistered
+2024-09-11 18:20:20 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-11 18:20:20 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-11 18:20:20 [kafka-admin-client-thread | adminclient-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-11 18:20:20 [restartedMain] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2024-09-11 18:20:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2024-09-11 18:20:20 [restartedMain] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2024-09-11 18:20:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2024-09-11 18:20:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2024-09-11 18:20:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2024-09-11 18:20:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2024-09-11 18:20:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2024-09-11 18:20:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2024-09-11 18:20:20 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2024-09-11 18:20:21 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2024-09-11 18:20:21 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2024-09-11 18:20:21 [restartedMain] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-09-11 18:20:21 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1726068021058 with initial instances count: 2
+2024-09-11 18:20:21 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application PAYMENT-SERVICE with eureka with status UP
+2024-09-11 18:20:21 [restartedMain] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1726068021060, current=UP, previous=STARTING]
+2024-09-11 18:20:21 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183: registering service...
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8183"]
+2024-09-11 18:20:21 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8183 (http) with context path '/payments'
+2024-09-11 18:20:21 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8183
+2024-09-11 18:20:21 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183 - registration status: 204
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-service-dlt-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-service-dlt
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1726068021548
+2024-09-11 18:20:21 [restartedMain] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Subscribed to topic(s): order-topic-dlt
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-service-retry-3000-2
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-service-retry-3000
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1726068021554
+2024-09-11 18:20:21 [restartedMain] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Subscribed to topic(s): order-topic-retry-3000
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-service-retry-6000-3
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-service-retry-6000
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1726068021560
+2024-09-11 18:20:21 [restartedMain] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Subscribed to topic(s): order-topic-retry-6000
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.k.c.consumer.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.include.jmx.reporter = true
+	auto.offset.reset = earliest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-payment-service-4
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = payment-service
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = GSSAPI
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.3]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.3
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Cluster ID: 9ho6wN2PQFOlaw_Ud3g5yA
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Cluster ID: 9ho6wN2PQFOlaw_Ud3g5yA
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Cluster ID: 9ho6wN2PQFOlaw_Ud3g5yA
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] (Re-)joining group
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] (Re-)joining group
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] (Re-)joining group
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka version: 3.6.2
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka commitId: c4deed513057c94e
+2024-09-11 18:20:21 [restartedMain] INFO  o.a.kafka.common.utils.AppInfoParser - Kafka startTimeMs: 1726068021565
+2024-09-11 18:20:21 [restartedMain] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Subscribed to topic(s): order-topic
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  org.apache.kafka.clients.Metadata - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Cluster ID: 9ho6wN2PQFOlaw_Ud3g5yA
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Discovered group coordinator HP:9092 (id: 2147483647 rack: null)
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] (Re-)joining group
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Request joining group due to: need to re-join with the given member-id: consumer-payment-service-dlt-1-b7147c4e-4510-4aeb-9487-5de426f484c1
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Request joining group due to: need to re-join with the given member-id: consumer-payment-service-4-4b91e208-ac59-4715-8171-f6de889b59bc
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Request joining group due to: need to re-join with the given member-id: consumer-payment-service-retry-6000-3-6e8c16b1-44bb-47cc-bec6-cbc0517c2bfb
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Request joining group due to: need to re-join with the given member-id: consumer-payment-service-retry-3000-2-d3d77603-82ec-46b7-b672-3ca949810dbb
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] (Re-)joining group
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Request joining group due to: rebalance failed due to 'The group member needs to have a valid member id before actually entering a consumer group.' (MemberIdRequiredException)
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] (Re-)joining group
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] (Re-)joining group
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] (Re-)joining group
+2024-09-11 18:20:21 [restartedMain] INFO  c.e.p.PaymentServiceApplication - Started PaymentServiceApplication in 3.823 seconds (process running for 4.037)
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Successfully joined group with generation Generation{generationId=13, memberId='consumer-payment-service-4-4b91e208-ac59-4715-8171-f6de889b59bc', protocol='range'}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Successfully joined group with generation Generation{generationId=13, memberId='consumer-payment-service-dlt-1-b7147c4e-4510-4aeb-9487-5de426f484c1', protocol='range'}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Successfully joined group with generation Generation{generationId=13, memberId='consumer-payment-service-retry-6000-3-6e8c16b1-44bb-47cc-bec6-cbc0517c2bfb', protocol='range'}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Successfully joined group with generation Generation{generationId=13, memberId='consumer-payment-service-retry-3000-2-d3d77603-82ec-46b7-b672-3ca949810dbb', protocol='range'}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Finished assignment for group at generation 13: {consumer-payment-service-retry-3000-2-d3d77603-82ec-46b7-b672-3ca949810dbb=Assignment(partitions=[order-topic-retry-3000-0])}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Finished assignment for group at generation 13: {consumer-payment-service-4-4b91e208-ac59-4715-8171-f6de889b59bc=Assignment(partitions=[order-topic-0, order-topic-1, order-topic-2])}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Finished assignment for group at generation 13: {consumer-payment-service-dlt-1-b7147c4e-4510-4aeb-9487-5de426f484c1=Assignment(partitions=[order-topic-dlt-0])}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Finished assignment for group at generation 13: {consumer-payment-service-retry-6000-3-6e8c16b1-44bb-47cc-bec6-cbc0517c2bfb=Assignment(partitions=[order-topic-retry-6000-0])}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Successfully synced group in generation Generation{generationId=13, memberId='consumer-payment-service-retry-6000-3-6e8c16b1-44bb-47cc-bec6-cbc0517c2bfb', protocol='range'}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Successfully synced group in generation Generation{generationId=13, memberId='consumer-payment-service-retry-3000-2-d3d77603-82ec-46b7-b672-3ca949810dbb', protocol='range'}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Successfully synced group in generation Generation{generationId=13, memberId='consumer-payment-service-4-4b91e208-ac59-4715-8171-f6de889b59bc', protocol='range'}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Successfully synced group in generation Generation{generationId=13, memberId='consumer-payment-service-dlt-1-b7147c4e-4510-4aeb-9487-5de426f484c1', protocol='range'}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Notifying assignor about the new Assignment(partitions=[order-topic-retry-3000-0])
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Notifying assignor about the new Assignment(partitions=[order-topic-dlt-0])
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Notifying assignor about the new Assignment(partitions=[order-topic-0, order-topic-1, order-topic-2])
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Notifying assignor about the new Assignment(partitions=[order-topic-retry-6000-0])
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Adding newly assigned partitions: order-topic-dlt-0
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Adding newly assigned partitions: order-topic-retry-6000-0
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Adding newly assigned partitions: order-topic-retry-3000-0
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Adding newly assigned partitions: order-topic-0, order-topic-1, order-topic-2
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Setting offset for partition order-topic-2 to the committed offset FetchPosition{offset=10, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[HP:9092 (id: 0 rack: null)], epoch=0}}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Setting offset for partition order-topic-retry-6000-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[HP:9092 (id: 0 rack: null)], epoch=0}}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Setting offset for partition order-topic-dlt-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[HP:9092 (id: 0 rack: null)], epoch=0}}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Setting offset for partition order-topic-0 to the committed offset FetchPosition{offset=6, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[HP:9092 (id: 0 rack: null)], epoch=0}}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Setting offset for partition order-topic-retry-3000-0 to the committed offset FetchPosition{offset=5, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[HP:9092 (id: 0 rack: null)], epoch=0}}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Setting offset for partition order-topic-1 to the committed offset FetchPosition{offset=10, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[HP:9092 (id: 0 rack: null)], epoch=0}}
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service: partitions assigned: [order-topic-0, order-topic-1, order-topic-2]
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-6000: partitions assigned: [order-topic-retry-6000-0]
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-3000: partitions assigned: [order-topic-retry-3000-0]
+2024-09-11 18:20:21 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-dlt: partitions assigned: [order-topic-dlt-0]
+2024-09-11 18:20:44 [SpringApplicationShutdownHook] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application PAYMENT-SERVICE with eureka with status DOWN
+2024-09-11 18:20:44 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1726068044964, current=DOWN, previous=UP]
+2024-09-11 18:20:44 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183: registering service...
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Revoke previously assigned partitions order-topic-retry-6000-0
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Revoke previously assigned partitions order-topic-0, order-topic-1, order-topic-2
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Revoke previously assigned partitions order-topic-dlt-0
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Revoke previously assigned partitions order-topic-retry-3000-0
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-3000: partitions revoked: [order-topic-retry-3000-0]
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-dlt: partitions revoked: [order-topic-dlt-0]
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service: partitions revoked: [order-topic-0, order-topic-1, order-topic-2]
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-6000: partitions revoked: [order-topic-retry-6000-0]
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Member consumer-payment-service-retry-3000-2-d3d77603-82ec-46b7-b672-3ca949810dbb sending LeaveGroup request to coordinator HP:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Member consumer-payment-service-retry-6000-3-6e8c16b1-44bb-47cc-bec6-cbc0517c2bfb sending LeaveGroup request to coordinator HP:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Member consumer-payment-service-4-4b91e208-ac59-4715-8171-f6de889b59bc sending LeaveGroup request to coordinator HP:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Member consumer-payment-service-dlt-1-b7147c4e-4510-4aeb-9487-5de426f484c1 sending LeaveGroup request to coordinator HP:9092 (id: 2147483647 rack: null) due to the consumer unsubscribed from all topics
+2024-09-11 18:20:44 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183 - registration status: 204
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Unsubscribed all topics or patterns and assigned partitions
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Unsubscribed all topics or patterns and assigned partitions
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Unsubscribed all topics or patterns and assigned partitions
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.s.k.c.DefaultKafkaConsumerFactory$ExtendedKafkaConsumer - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Unsubscribed all topics or patterns and assigned partitions
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-dlt-1, groupId=payment-service-dlt] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Resetting generation and member id due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-4, groupId=payment-service] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-6000-3, groupId=payment-service-retry-6000] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:20:44 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-payment-service-retry-3000-2, groupId=payment-service-retry-3000] Request joining group due to: consumer pro-actively leaving the group
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics scheduler closed
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.kafka.common.metrics.Metrics - Metrics reporters closed
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-dlt-1 unregistered
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-dlt-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-dlt: Consumer stopped
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-retry-6000-3 unregistered
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-6000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-6000: Consumer stopped
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-4 unregistered
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service: Consumer stopped
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.a.kafka.common.utils.AppInfoParser - App info kafka.consumer for consumer-payment-service-retry-3000-2 unregistered
+2024-09-11 18:20:45 [org.springframework.kafka.KafkaListenerEndpointContainer#0-retry-3000-0-C-1] INFO  o.s.k.l.KafkaMessageListenerContainer - payment-service-retry-3000: Consumer stopped
+2024-09-11 18:20:45 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-11 18:20:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-09-11 18:20:45 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-09-11 18:20:45 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2024-09-11 18:20:48 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Unregistering ...
+2024-09-11 18:20:48 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_PAYMENT-SERVICE/HP:PAYMENT-SERVICE:8183 - deregister  status: 200
+2024-09-11 18:20:48 [SpringApplicationShutdownHook] INFO  c.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient

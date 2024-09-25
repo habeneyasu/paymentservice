@@ -1,5 +1,6 @@
 package com.ecommerce.paymentservice.integration;
 
+import com.ecommerce.paymentservice.modeldto.OrderResponseDTO;
 import com.ecommerce.paymentservice.modeldto.PaymentDTO;
 import com.ecommerce.paymentservice.modeldto.Login;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,5 +44,22 @@ public class OrderServiceIntegrationImp implements OrderServiceIntegration {
                 .header("Content-Type", "application/json")
                 .retrieve()
                 .bodyToMono(PaymentDTO.class);
+    }
+    public Mono<Boolean> isOrderFound(String orderCode){
+        return webClient.get()
+                .uri(uriBuilder -> uriBuilder
+                        .path("/findOrderByCode")
+                        .queryParam("order_code", orderCode)
+                        .build())
+                .retrieve()
+                .bodyToMono(Boolean.class); // Expect a boolean response from the endpoint
+    }
+    public Mono<OrderResponseDTO> getOrderByCode(String orderCode) {
+        return webClient.get()
+                .uri(uriBuilder -> uriBuilder.path("/findOrderByCode")
+                        .queryParam("order_code", orderCode)
+                        .build())
+                .retrieve()
+                .bodyToMono(OrderResponseDTO.class);
     }
 }

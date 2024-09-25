@@ -8,7 +8,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 
 @Configuration
 public class WebConfig {
-    @Value("${spring.userservice.baseurl}")
+    @Value("${spring.orderservice.baseurl}")
     private String userServiceBaseUrl;
 
     @Bean
